@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".activity_jam4936">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Page 1"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="225dp" />
 </android.support.constraint.ConstraintLayout>
