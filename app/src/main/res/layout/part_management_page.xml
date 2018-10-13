@@ -7,13 +7,59 @@
     android:layout_height="match_parent">
 
     <Button
+        android:id="@+id/button18"
+        android:layout_width="60dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="220dp"
+        android:text="reset"
+        android:textSize="10sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="235dp" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="60dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="285dp"
+        android:text="reset"
+        android:textSize="10sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="235dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Part C - ### miles"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText5" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Part B - ### miles"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+
+    <Button
         android:id="@+id/button13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
-        android:text="edit parts list"
+        android:text="add/remove parts"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -45,21 +91,34 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button15"
-        android:layout_width="wrap_content"
+        android:id="@+id/button16"
+        android:layout_width="206dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="50dp"
+        android:text="Generate Report"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="89dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="136dp"
-        android:layout_marginLeft="136dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
         android:layout_marginTop="150dp"
-        android:text="input miles"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Part A - ### miles"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button16"
-        android:layout_width="124dp"
-        android:layout_height="84dp"
-        android:text="Generate Report"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="299dp" />
+        android:id="@+id/button17"
+        android:layout_width="60dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="155dp"
+        android:text="reset"
+        android:textSize="10sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="235dp" />
 </android.support.constraint.ConstraintLayout>
