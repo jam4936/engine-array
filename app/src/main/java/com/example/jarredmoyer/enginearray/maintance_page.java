@@ -17,8 +17,8 @@ public class maintance_page extends AppCompatActivity {
         setContentView(R.layout.activity_maintance_page);
 
         back = (Button)findViewById(R.id.button13);
-        nextInt = (Button)findViewById(R.id.button5);
-        pastInt = (Button)findViewById(R.id.button4);
+        nextInt = (Button)findViewById(R.id.manage_back);
+        pastInt = (Button)findViewById(R.id.past_int);
 
         back.setOnClickListener(new View.OnClickListener(){
             @Override

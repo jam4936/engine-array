@@ -1,6 +1,5 @@
 package com.example.jarredmoyer.enginearray;
 
-import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -29,7 +28,7 @@ public class parts_page extends AppCompatActivity {
     }
 
     private void configureNextButton(){
-        Button nextButton = findViewById(R.id.addNewPart);
+        Button nextButton = findViewById(R.id.past_int);
         nextButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){

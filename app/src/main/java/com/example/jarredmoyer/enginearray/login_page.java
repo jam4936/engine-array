@@ -27,7 +27,7 @@ public class login_page extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                openRegistration();
+                login();
             }
         });
     }

@@ -16,7 +16,7 @@ public class milage_page extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_milage_page);
         update = (Button)findViewById(R.id.button15);
-        back = (Button)findViewById(R.id.button4);
+        back = (Button)findViewById(R.id.button7);
 
         update.setOnClickListener(new View.OnClickListener(){
             @Override
