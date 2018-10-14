@@ -7,19 +7,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class parts_page extends AppCompatActivity {
+public class add_vehicle_page extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_parts_page);
+        setContentView(R.layout.activity_add_vehicle_page);
 
         configureBackButton();
-        configureNextButton();
+        configureRegisterButton();
     }
 
     private void configureBackButton(){
-        Button backButton = findViewById(R.id.manage_back);
+        Button backButton = findViewById(R.id.back_button);
         backButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -28,12 +28,12 @@ public class parts_page extends AppCompatActivity {
         });
     }
 
-    private void configureNextButton(){
-        Button nextButton = findViewById(R.id.addNewPart);
-        nextButton.setOnClickListener(new View.OnClickListener(){
+    private void configureRegisterButton(){
+        Button registerButton = findViewById(R.id.register_vehicle);
+        registerButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                startActivity(new Intent(parts_page.this, add_part_page.class));
+                startActivity(new Intent(add_vehicle_page.this, vehicle_management.class));
             }
         });
     }

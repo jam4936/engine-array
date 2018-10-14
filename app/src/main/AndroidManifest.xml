@@ -25,7 +25,8 @@
         <activity android:name=".parts_page" />
         <activity android:name=".preferences_vehicle_management" />
         <activity android:name=".registration_login" />
-        <activity android:name=".vehicle_management"></activity>
+        <activity android:name=".vehicle_management" />
+        <activity android:name=".add_vehicle_page"></activity>
     </application>
 
 </manifest>
