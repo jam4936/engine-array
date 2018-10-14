@@ -11,20 +11,24 @@
         android:layout_width="60dp"
         android:layout_height="33dp"
         android:layout_marginTop="220dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
         android:text="reset"
         android:textSize="10sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="235dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button19"
         android:layout_width="60dp"
         android:layout_height="33dp"
         android:layout_marginTop="285dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
         android:text="reset"
         android:textSize="10sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="235dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editText6"
@@ -94,10 +98,12 @@
         android:id="@+id/button16"
         android:layout_width="206dp"
         android:layout_height="42dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
         android:layout_marginBottom="50dp"
         android:text="Generate Report"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="89dp" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <EditText
         android:id="@+id/editText4"
@@ -117,8 +123,10 @@
         android:layout_width="60dp"
         android:layout_height="33dp"
         android:layout_marginTop="155dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
         android:text="reset"
         android:textSize="10sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="235dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
