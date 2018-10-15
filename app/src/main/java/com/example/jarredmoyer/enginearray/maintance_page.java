@@ -41,7 +41,7 @@ public class maintance_page extends AppCompatActivity {
     }
 
     public void goBack(){
-        Intent intent = new Intent(maintance_page.this,parts_page.class);
+        Intent intent = new Intent(maintance_page.this,part_management_page.class);
         startActivity(intent);
     }
 

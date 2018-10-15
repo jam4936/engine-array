@@ -18,6 +18,16 @@ public class vehicle_management extends AppCompatActivity {
         configureAddButton();
         configurePrefButton();
         configurepart1();
+        configureMileAdd();
+    }
+    private void configureMileAdd(){
+        Button part1 = findViewById(R.id.button28);
+        part1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(vehicle_management.this, milage_page.class));
+            }
+        });
     }
     private void configurepart1(){
         Button part1 = findViewById(R.id.button24);
