@@ -32,7 +32,7 @@ public class parts_page extends AppCompatActivity {
         nextButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                startActivity(new Intent(parts_page.this, part_management_page.class));
+                //startActivity(new Intent(parts_page.this, part_management_page.class));
             }
         });
     }
