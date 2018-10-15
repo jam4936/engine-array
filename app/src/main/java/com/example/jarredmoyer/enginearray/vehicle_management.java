@@ -17,6 +17,7 @@ public class vehicle_management extends AppCompatActivity {
         configureBackButton();
         configureAddButton();
         configurePrefButton();
+        configurepart1();
     }
     private void configurepart1(){
         Button part1 = findViewById(R.id.button24);
