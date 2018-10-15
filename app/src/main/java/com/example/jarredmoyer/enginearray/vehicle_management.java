@@ -18,7 +18,15 @@ public class vehicle_management extends AppCompatActivity {
         configureAddButton();
         configurePrefButton();
     }
-
+    private void configurepart1(){
+        Button part1 = findViewById(R.id.button24);
+        part1.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                startActivity(new Intent(vehicle_management.this, part_management_page.class));
+            }
+        });
+    }
     private void configureBackButton(){
         Button backButton = findViewById(R.id.manage_back);
         backButton.setOnClickListener(new View.OnClickListener(){
