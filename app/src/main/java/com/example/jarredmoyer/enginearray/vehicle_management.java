@@ -32,7 +32,8 @@ public class vehicle_management extends AppCompatActivity {
         backButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                finish();
+                goback();
+
             }
         });
     }
@@ -55,5 +56,9 @@ public class vehicle_management extends AppCompatActivity {
                 startActivity(new Intent(vehicle_management.this, preferences_vehicle_management.class));
             }
         });
+    }
+    public void goback(){
+        Intent intent = new Intent(this,login_page.class);
+        startActivity(intent);
     }
 }
