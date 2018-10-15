@@ -9,14 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".login_page">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AaronJ"></activity>
+        <activity android:name=".add_part_page" />\
+        <activity android:name=".login_screen" />
+        <activity android:name=".maintance_page" />
+        <activity android:name=".milage_page" />
+        <activity android:name=".part_management_page" />
+        <activity android:name=".parts_page" />
+        <activity android:name=".preferences_vehicle_management" />
+        <activity android:name=".registration_login" />
+        <activity android:name=".vehicle_management" />
+        <activity android:name=".add_vehicle_page"></activity>
     </application>
 
 </manifest>
