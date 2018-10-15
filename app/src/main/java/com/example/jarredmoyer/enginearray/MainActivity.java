@@ -1,6 +1,5 @@
 package com.example.jarredmoyer.enginearray;
 
-//Aaron Jiang
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -14,5 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Intent intent = new Intent(MainActivity.this,login_page.class);
         startActivity(intent);
+
+
     }
 }
