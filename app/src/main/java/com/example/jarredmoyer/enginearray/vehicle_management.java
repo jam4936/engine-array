@@ -17,6 +17,8 @@ public class vehicle_management extends AppCompatActivity {
         configureBackButton();
         configureAddButton();
         configurePrefButton();
+        configureMilageInputButton();
+        configurePartsButton();
     }
     private void configurepart1(){
         Button part1 = findViewById(R.id.button24);
@@ -53,6 +55,24 @@ public class vehicle_management extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 startActivity(new Intent(vehicle_management.this, preferences_vehicle_management.class));
+            }
+        });
+    }
+    private void configurePartsButton(){
+        Button prefButton = findViewById(R.id.button28);
+        prefButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                startActivity(new Intent(vehicle_management.this, part_management_page.class));
+            }
+        });
+    }
+    private void configureMilageInputButton(){
+        Button prefButton = findViewById(R.id.button24);
+        prefButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                startActivity(new Intent(vehicle_management.this, milage_page.class));
             }
         });
     }
