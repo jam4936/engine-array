@@ -34,11 +34,11 @@ public class milage_page extends AppCompatActivity {
 
     }
     public void update(){
-        Intent intent = new Intent(this,vehicle_management.class);
+        Intent intent = new Intent(this,map_input.class);
         startActivity(intent);
     }
     public void back(){
-        Intent intent = new Intent(this,vehicle_management.class);
+        Intent intent = new Intent(this,map_input.class);
         startActivity(intent);
     }
 

@@ -25,7 +25,7 @@ public class vehicle_management extends AppCompatActivity {
         part1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(vehicle_management.this, milage_page.class));
+                startActivity(new Intent(vehicle_management.this, map_input.class));
             }
         });
     }
