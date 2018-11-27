@@ -27,7 +27,7 @@ public class milage_page extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                back();
+                finish();
             }
         });
 

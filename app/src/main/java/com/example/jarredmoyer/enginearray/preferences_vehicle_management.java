@@ -17,7 +17,7 @@ public class preferences_vehicle_management extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                exit();
+                finish();
             }
         });
 

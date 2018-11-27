@@ -23,7 +23,7 @@ public class maintance_page extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                goBack();
+                finish();
             }
         });
         nextInt.setOnClickListener(new View.OnClickListener(){
