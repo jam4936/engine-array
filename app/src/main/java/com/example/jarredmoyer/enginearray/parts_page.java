@@ -22,8 +22,7 @@ public class parts_page extends AppCompatActivity {
         backButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent intent = new Intent(parts_page.this,part_management_page.class);
-                startActivity(intent);
+                finish();
             }
         });
     }

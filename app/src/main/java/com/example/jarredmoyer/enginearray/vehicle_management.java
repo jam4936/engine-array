@@ -43,8 +43,7 @@ public class vehicle_management extends AppCompatActivity {
         backButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                goback();
-
+                finish();
             }
         });
     }

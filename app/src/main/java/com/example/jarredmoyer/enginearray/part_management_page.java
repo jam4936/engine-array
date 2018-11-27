@@ -24,7 +24,7 @@ public class part_management_page extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                leave();
+                finish();
             }
         });
         changePart.setOnClickListener(new View.OnClickListener(){
