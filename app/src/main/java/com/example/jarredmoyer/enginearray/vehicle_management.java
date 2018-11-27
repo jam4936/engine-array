@@ -17,17 +17,8 @@ public class vehicle_management extends AppCompatActivity {
         configureBackButton();
         configureAddButton();
         configurePrefButton();
-        configurepart1();
-        configureMileAdd();
-    }
-    private void configureMileAdd(){
-        Button part1 = findViewById(R.id.button28);
-        part1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(vehicle_management.this, milage_page.class));
-            }
-        });
+        configureMilageInputButton();
+        configurePartsButton();
     }
     private void configurepart1(){
         Button part1 = findViewById(R.id.button24);
@@ -43,8 +34,7 @@ public class vehicle_management extends AppCompatActivity {
         backButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                goback();
-
+                finish();
             }
         });
     }
@@ -68,8 +58,22 @@ public class vehicle_management extends AppCompatActivity {
             }
         });
     }
-    public void goback(){
-        Intent intent = new Intent(this,login_page.class);
-        startActivity(intent);
+    private void configurePartsButton(){
+        Button partButton = findViewById(R.id.button28);
+        partButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                startActivity(new Intent(vehicle_management.this, part_management_page.class));
+            }
+        });
+    }
+    private void configureMilageInputButton(){
+        Button milageButton = findViewById(R.id.button24);
+        milageButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                startActivity(new Intent(vehicle_management.this, milage_page.class));
+            }
+        });
     }
 }
