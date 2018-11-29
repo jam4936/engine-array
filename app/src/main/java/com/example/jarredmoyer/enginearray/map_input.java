@@ -25,7 +25,7 @@ public class map_input extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                back();
+                finish();
             }
         });
     }
@@ -40,8 +40,6 @@ public class map_input extends AppCompatActivity {
         }
 
         );
-
-
 
     }
 
