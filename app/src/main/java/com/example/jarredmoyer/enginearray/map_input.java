@@ -13,21 +13,9 @@ public class map_input extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map_input);
 
-        Button forceUpdate = (Button)findViewById(R.id.button29);
-        Button back = (Button)findViewById(R.id.button6);
+        back();
+        manual_miles();
 
-        forceUpdate.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                manual_miles();
-            }
-        });
-        back.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                back();
-            }
-        });
     }
 
     private void back(){
