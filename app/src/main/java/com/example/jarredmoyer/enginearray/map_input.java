@@ -10,6 +10,7 @@ public class map_input extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        System.out.print("Made it to create");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map_input);
 
@@ -28,28 +29,20 @@ public class map_input extends AppCompatActivity {
                 finish();
             }
         });
+
     }
 
     private void back(){
-        Button part1 = findViewById(R.id.button28);
-        part1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+
+
                 startActivity(new Intent(map_input.this, vehicle_management.class));
             }
-        }
 
-        );
-
-    }
 
     private void manual_miles(){
-        Button part1 = findViewById(R.id.button28);
-        part1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+
+
                 startActivity(new Intent(map_input.this, milage_page.class));
-            }
-        });
+
     }
 }

@@ -25,7 +25,10 @@
         <activity android:name=".preferences_vehicle_management" />
         <activity android:name=".registration_login" />
         <activity android:name=".vehicle_management" />
-        <activity android:name=".add_vehicle_page"></activity>
+        <activity android:name=".add_vehicle_page"/>
+        <activity android:name=".map_input">
+        </activity>
+
     </application>
 
 </manifest>
